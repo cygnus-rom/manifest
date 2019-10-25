@@ -21,7 +21,7 @@ git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 
 To initialize your local repository using the Cygnus trees, use a command like this:
 ```
-repo init -u git://github.com/cygnus-rom/manifest.git -b default
+repo init -u git://github.com/cygnus-rom/manifest.git -b ten-aosp
 ```
 Then to sync up:
 ```
