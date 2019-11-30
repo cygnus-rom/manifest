@@ -1,37 +1,32 @@
-LineageOS
+Cygnus
 ===========
 
-Getting started
----------------
+Let's get started :)
+--------------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/Cygnus, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/LineageOS/android.git -b lineage-17.0
+repo init -u git://github.com/cygnus-rom/manifest.git -b ten
 ```
 Then to sync up:
 ```
-repo sync
+repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
 ```
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
+Contributing
+-------------
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+Contributions through pull requests are welcome.
 
 
-Buildbot
+Credits
 --------
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+- LineageOS
+- AOSP
+-
