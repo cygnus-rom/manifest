@@ -12,6 +12,8 @@ To get everything from syncing rom source to merge the latest changes and run en
 ```
 git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 ```
+MANUAL INSTRUCTIONS
+
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
