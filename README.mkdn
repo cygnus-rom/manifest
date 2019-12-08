@@ -7,6 +7,12 @@ Let's get started :)
 To get started with Android/Cygnus, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
+
+To get everything from syncing rom source to merge the latest changes and run envsetup in one go, do this:
+```
+git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
+```
+
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
 repo init -u git://github.com/cygnus-rom/manifest.git -b default
