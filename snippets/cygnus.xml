@@ -33,7 +33,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
 
   <!-- Apps -->
-  <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" />
+  <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
 
 
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="lineage" />
