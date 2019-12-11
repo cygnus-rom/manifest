@@ -4,6 +4,9 @@ Cygnus
 Let's get started :)
 --------------------
 
+
+[![TG chat](https://img.shields.io/badge/Support-Telegram-%23e52c5f.svg?style=for-the-badge&logo=telegram&&labelColor=121217)](https://t.me/cygnusos)
+
 To get started with Android/Cygnus, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
@@ -12,10 +15,10 @@ To get everything from syncing rom source to merge the latest changes and run en
 ```
 git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 ```
-MANUAL INSTRUCTIONS
+**MANUAL INSTRUCTIONS**
 
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the Cygnus trees, use a command like this:
 ```
 repo init -u git://github.com/cygnus-rom/manifest.git -b default
 ```
