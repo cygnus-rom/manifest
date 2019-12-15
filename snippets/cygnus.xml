@@ -31,6 +31,9 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
+  
+  <!-- Settings -->
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
 
   <!-- Apps -->
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
