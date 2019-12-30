@@ -15,6 +15,12 @@ To get everything from syncing rom source to merge the latest changes and run en
 ```
 git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 ```
+
+If you want to do a shallow clone, i.e. you want to save some space in your computer, run: 
+```
+git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh -shallow
+```
+
 **MANUAL INSTRUCTIONS**
 
 
