@@ -34,6 +34,9 @@
   
   <!-- Settings -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
+  
+  <!-- System Core -->
+  <project path="system/core" name="system_core" remote="cygnus" />
 
   <!-- Apps -->
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
