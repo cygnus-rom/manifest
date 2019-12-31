@@ -25,7 +25,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- Build -->
+  <!-- Vendor -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
   <project path="vendor/lineage" name="vendor_lineage" remote="cygnus" />
 
@@ -38,6 +38,8 @@
   <!-- System Core -->
   <project path="system/core" name="system_core" remote="cygnus" />
 
+  <!-- Telcomm --> 
+  <project path="packages_services_Telecomm" name="packages_services_Telecomm" remote="cygnus" />>
   <!-- Apps -->
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="cygnus" />
