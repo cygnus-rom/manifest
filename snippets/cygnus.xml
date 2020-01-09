@@ -7,7 +7,7 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-17.0" />
+          revision="lineage-17.1" />
 
 
   <!-- Build -->
@@ -39,7 +39,7 @@
   <project path="system/core" name="system_core" remote="cygnus" />
 
   <!-- Telcomm --> 
-  <project path="packages_services_Telecomm" name="packages_services_Telecomm" remote="cygnus" />>
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cygnus" />>
   <!-- Apps -->
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
   <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="cygnus" />
