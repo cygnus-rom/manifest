@@ -42,7 +42,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="cygnus" />>
   <!-- Apps -->
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="cygnus" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="cygnus" revision="ten-rebase" />
   <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="cygnus" />
   <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="lineage" />
   <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="lineage" revision="lineage-16.0" />
