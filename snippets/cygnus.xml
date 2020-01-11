@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cygnus"
-           fetch="https://github.com/cygnus-rom"
+           fetch="https://github.com/cygnus-next"
            revision="ten" />
 
   <remote name="lineage"
