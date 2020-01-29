@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="cygnus"
-           fetch="https://github.com/cygnus-next"
+           fetch="https://github.com/cygnus-rom"
            revision="ten" />
 
   <remote name="lineage"
@@ -24,6 +24,9 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  
+  <!-- Bionic -->
+  <project path="bionic" name ="bionic" remote="cygnus" />
 
   <!-- Vendor -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
@@ -31,6 +34,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
+    <project path="frameworks/av" name="frameworks_av" remote="cygnus" />
   
   <!-- Settings -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
