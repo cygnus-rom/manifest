@@ -13,7 +13,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To get everything from syncing rom source to merge the latest changes and run envsetup in one go, do this:
 ```
-git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash next-aio.sh
+git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 ```
 
 **MANUAL INSTRUCTIONS**
