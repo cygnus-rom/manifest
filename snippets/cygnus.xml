@@ -25,9 +25,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   
-  <!-- Bionic -->
-  <project path="bionic" name ="bionic" remote="cygnus" />
-
   <!-- Vendor -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
   <project path="vendor/lineage" name="vendor_lineage" remote="cygnus" />
