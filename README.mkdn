@@ -16,18 +16,7 @@ To get everything from syncing rom source to merge the latest changes and run en
 git clone https://github.com/cygnus-rom/scripts.git && cd scripts && bash aio.sh
 ```
 
-**MANUAL INSTRUCTIONS**
 
-
-To initialize your local repository using the Cygnus trees, use a command like this:
-```
-repo init -u git://github.com/cygnus-rom/manifest.git -b ten
-```
-Then to sync up:
-```
-repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
-```
-Clone updates.sh and run it!!!
 
 **COMPILING**
 
