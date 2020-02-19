@@ -27,6 +27,7 @@
  	   <linkfile src="root.bp" dest="Android.bp" />
 	    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
    </project>
+   <project path="build/blueprint" name="build_blueprint" remote="cygnus"/>
    
    <!-- Manifest -->
    	<project path="manifest" name="manifest" remote="cygnus"/>
@@ -60,5 +61,8 @@
        
    <!-- Recovery -->
    	<project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
+   
+   <!-- SDClang -->
+   	<project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
        
 </manifest>

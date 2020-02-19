@@ -16,6 +16,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="device/qcom/sepolicy" />
+  <remove-project name="platform/build/blueprint" />
   
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
