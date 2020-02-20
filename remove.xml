@@ -17,6 +17,9 @@
   <remove-project name="platform/frameworks/native" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/display" />
   
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
@@ -52,6 +55,7 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
   <remove-project name="platform/vendor/qcom/ferrum"/>
   <remove-project name="platform/vendor/qcom/msm8909go"/>
