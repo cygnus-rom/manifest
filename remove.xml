@@ -20,7 +20,10 @@
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/display" />
-  
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/amlogic/yukawa"/>

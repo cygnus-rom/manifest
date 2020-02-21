@@ -35,6 +35,8 @@
    <!-- Vendor -->
    	<project path="vendor/cygnus" name="vendor_cygnus"  remote="cygnus"/>
        <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus"/>
+       <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="cygnus"/>
+       
    
    <!-- Frameworks -->
    	<project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
@@ -45,6 +47,8 @@
        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
        <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
        
+   <!-- External -->
+   	<project path="external/selinux" name="external_selinux" remote="cygnus"/>
    <!-- System -->
    	<project path="system/core" name="system_core" remote="cygnus"/>
        <project path="system/vold" name="system_vold" remote="cygnus"/>
