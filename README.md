@@ -25,8 +25,8 @@ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --op
 
 ```
 source build/envsetup.sh
-lunch cygnus_devuce-userdebug
-mka bacon -j$(nproc --all)
+lunch cygnus_device-userdebug
+mka cygnus
 ```
 
 Contributing
