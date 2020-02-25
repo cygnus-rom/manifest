@@ -51,6 +51,7 @@
        
    <!-- External -->
        <project path="external/selinux" name="external_selinux" remote="cygnus"/>
+       <project path="external/inter-fonts" name="external_inter-fonts" remote="cygnus"/>
    
    <!-- System -->
        <project path="system/core" name="system_core" remote="cygnus"/>
