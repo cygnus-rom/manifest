@@ -52,7 +52,8 @@
    <!-- External -->
        <project path="external/selinux" name="external_selinux" remote="cygnus"/>
        <project path="external/inter-fonts" name="external_inter-fonts" remote="cygnus"/>
-   
+       <project path="external/libunwind/llvm" name="external_libunwind_llvm" remote="cygnus"/> 
+
    <!-- System -->
        <project path="system/core" name="system_core" remote="cygnus"/>
        <project path="system/vold" name="system_vold" remote="cygnus"/>
