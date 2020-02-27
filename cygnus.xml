@@ -63,6 +63,7 @@
    
    <!-- Hardware -->
        <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus"/>
+       <project path="hardware/cygnus/interfaces" name="hardware_cygnus_interfaces" remote="cygnus"/>
    
    <!-- Prebuilts -->
        <project path="prebuilts/r8" name="prebuilts_r8" remote="cygnus"/>
