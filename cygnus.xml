@@ -43,6 +43,7 @@
        <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
        <project path="frameworks/native" name="frameworks_native" remote="cygnus"/>
        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cygnus"/>
+       <project path="frameworks/av" name="frameworks_av" remote="cygnus" />
 
    <!-- Device -->
        <project path="device/qcom/common" name="device_qcom_common" remote="cygnus"/>
@@ -71,7 +72,7 @@
    
    <!-- Packages -->
        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
-    
+       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />    
    <!-- Recovery -->
        <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
    

@@ -28,6 +28,8 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/libunwind_llvm" />
+  <remove-project name="packages/apps/Settings" />
+  <remove-project name="frameworks/av" />
 
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
