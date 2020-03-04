@@ -30,6 +30,7 @@
   <remove-project name="platform/external/libunwind_llvm" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/packages/apps/Launcher3" />
 
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>

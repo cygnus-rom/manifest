@@ -72,7 +72,9 @@
    
    <!-- Packages -->
        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
-       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />    
+       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus"/>    
+       <project path="packages/apps/CygnusLauncher" name="packages_apps_CygnusLauncher" remote="cygnus"/>
+
    <!-- Recovery -->
        <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
    
