@@ -33,7 +33,7 @@
    	<project path="manifest" name="manifest" remote="cygnus"/>
 	
    <!-- Scripts -->
-	<project path="scripts" name="scripts" remote="cygnus"/>
+	<project path="scripts" name="scripts" remote="cygnus" revision="master"/>
    
    <!-- Vendor -->
        <project path="vendor/cygnus" name="vendor_cygnus"  remote="cygnus"/>
