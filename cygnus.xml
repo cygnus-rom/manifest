@@ -51,6 +51,7 @@
        <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus"/>
        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="cygnus"/>
        <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cygnus"/>
+       <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="cygnus"/>
    
    <!-- Frameworks -->
        <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
