@@ -33,24 +33,16 @@
    	<project path="manifest" name="manifest" remote="cygnus"/>
 	
    <!-- Scripts -->
-	<project path="scripts" name="Dhruvgera/custom_python_scripts" remote="github" revision="master"/>
 
-   <!-- development -->
-       <project path="development" name="development" remote="cygnus"/>
 
-   <!-- art -->
-       <project path="art" name="art" remote="cygnus"/>
+
    
-   <!-- libcore -->
-       <project path="libcore" name="libcore" remote="cygnus"/>
-
    <!-- Vendor -->
        <project path="vendor/cygnus" name="vendor_cygnus"  remote="cygnus"/>
        <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus"/>
        <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="cygnus"/>
        <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus"/>
        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="cygnus"/>
-       <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cygnus"/>
    
    <!-- Frameworks -->
        <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
@@ -94,5 +86,5 @@
    
    <!-- SDClang -->
        <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
-    
+       
 </manifest>
