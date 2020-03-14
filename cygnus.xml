@@ -33,7 +33,7 @@
    	<project path="manifest" name="manifest" remote="cygnus"/>
 	
    <!-- Scripts -->
-	<project path="scripts" name="scripts" remote="cygnus" revision="master"/>
+	<project path="scripts" name="Dhruvgera/custom_python_scripts" remote="github" revision="master"/>
 
    <!-- development -->
        <project path="development" name="development" remote="cygnus"/>
