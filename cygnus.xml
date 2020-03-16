@@ -96,4 +96,12 @@
    <!-- SDClang -->
        <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
     
+
+   <!-- Gapps -->
+        <remote name="opengapps" fetch="https://github.com/opengapps/"  />
+        <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
+
+        <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+
+        <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
