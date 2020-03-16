@@ -20,6 +20,10 @@ repo init -u https://github.com/cygnus-rom/manifest.git -b caf-ten
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
 ```
 
+**SYNCING GAPPS**
+```
+bash vendor/configs/gapps.sh
+```
 
 **COMPILING**
 
