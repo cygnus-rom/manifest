@@ -22,7 +22,7 @@ repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --op
 
 **SYNCING GAPPS**
 ```
-bash vendor/configs/gapps.sh
+repo forall -c git lfs pull
 ```
 
 **COMPILING**
