@@ -37,6 +37,7 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
 
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
