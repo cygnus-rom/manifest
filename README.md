@@ -16,6 +16,11 @@ repo init -u https://github.com/cygnus-rom/manifest.git -b caf-ten
 ```
 
 **SYNCING THE SOURCE**
+
+Make sure you have git lfs installed in your system. 
+
+In Ubuntu, do : sudo apt install git-lfs
+
 ```
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
 ```
