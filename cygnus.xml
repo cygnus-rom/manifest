@@ -4,6 +4,14 @@
   <remote  name="cygnus"
            fetch="https://github.com/cygnus-rom"
            revision="caf-ten" />
+ 
+  <remote  name="Cygnus-devices"
+           fetch="https://github.com/Cygnus-devices"
+           revision="caf-ten" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/"
+           revision="caf-ten" />
 
   <remote  name="github"
            fetch="https://github.com/" />
