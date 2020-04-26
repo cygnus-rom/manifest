@@ -16,11 +16,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r27"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
-           
   <!-- Build -->
   <project path="build/make" name="build" remote="cygnus" >
     	<copyfile src="core/root.mk" dest="Makefile" />

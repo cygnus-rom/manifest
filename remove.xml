@@ -37,7 +37,6 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
-  <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
 
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
@@ -67,7 +66,6 @@
   <remove-project name="device/linaro/poplar"/>
   <remove-project name="device/linaro/poplar-kernel"/>
   <remove-project name="device/sample"/>
-  <remove-project name="kernel/msm-4.14"/>
   <remove-project name="platform/hardware/qcom/thermal"/>
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
@@ -81,5 +79,17 @@
   <remove-project name="platform/vendor/qcom/skunk"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/wlan"/>
-  
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
+  <remove-project name="kernel/msm-4.4"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/vendor/qcom/cobalt"/>
+  <remove-project name="platform/vendor/qcom/falcon_32"/>
+  <remove-project name="platform/vendor/qcom/falcon_64"/>
+  <remove-project name="platform/vendor/qcom/msm8937_32go"/>  
+  <remove-project name="kernel/msm-4.9"/>
+  <remove-project name="platform/vendor/qcom-opensource/wfd-commonsys"/>
+  <remove-project name="kernel/msm-4.14"/>
+  <remove-project name="platform/vendor/qcom-opensource/vibrator"/>
+  <remove-project name="platform/vendor/qcom/atoll"/>
+  <remove-project name="platform/vendor/qcom/steppe"/>
 </manifest>
