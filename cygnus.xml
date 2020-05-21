@@ -96,7 +96,9 @@
     <!-- Prebuilts -->
         <project path="prebuilts/r8" name="prebuilts_r8" remote="cygnus"/>
         <project path="prebuilts/tools-cygnus" name="prebuilts_tools-cygnus" remote="cygnus"/>
-   
+        <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="cygnus"/>
+        <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="cygnus"/>   
+    
     <!-- Packages -->
         <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnusnext" revision="caf-ten-merge"/>
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnusnext" revision="caf-ten-merge"/>    
