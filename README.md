@@ -10,16 +10,22 @@
 To get started with Android/Cygnus, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
+**BUILD ENVIRONMENT**
+
+Apart from the basic compiling setup, make sure you have git lfs installed in your system.
+
+In Ubuntu, do : 
+```
+sudo apt install git-lfs
+```
+
 **INITIALISING THE MANIFEST**
+
 ```
 repo init -u https://github.com/cygnus-rom/manifest.git -b caf-ten
 ```
 
 **SYNCING THE SOURCE**
-
-Make sure you have git lfs installed in your system. 
-
-In Ubuntu, do : sudo apt install git-lfs
 
 ```
 repo sync -j$(nproc --all) --force-sync --no-tags --no-clone-bundle --prune --optimized-fetch
@@ -50,9 +56,4 @@ Gerrit coming soon!
 - LineageOS
 - AOSPA
 - WaveOS
-
-And other sources which we might have missed
-
-> Special thanks to @imjyotiraditya for supporting and helping us with the source.
-
-
+And all other sources which could not end up in this list as it would become very long.

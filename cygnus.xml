@@ -58,7 +58,7 @@
         <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="cygnus"/>
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus" />
         <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="cygnus"/>
-		<project path="vendor/prebuilts" name="vendor-prebuilts" remote="cygnus"/>
+		<project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus"/>
    
     <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
@@ -105,7 +105,7 @@
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus"/>    
         <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="cygnus"/>
 		<project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus"/>
-		<project path="packages/apps/Bluetooth" name="packages_apps_Bluetoth" remote="cygnus"/>
+		<project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="cygnus"/>
 		<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus"/>
 
     <!-- Recovery -->
