@@ -48,7 +48,7 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/amlogic/yukawa"/>

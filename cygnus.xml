@@ -58,8 +58,9 @@
         <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="cygnus"/>
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus" />
         <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="cygnus"/>
-		<project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus"/>
-   
+	<project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus"/>
+	<project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cygnus"/>
+
     <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
         <project path="frameworks/native" name="frameworks_native" remote="cygnus"/>
