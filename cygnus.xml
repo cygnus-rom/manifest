@@ -3,7 +3,7 @@
 
     <remote name="cygnus"
             fetch="https://github.com/cygnus-rom"
-            revision="caf-ten" />
+            revision="caf-test" />
  
     <remote name="Cygnus-devices"
             fetch="https://github.com/Cygnus-devices"
