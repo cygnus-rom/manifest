@@ -10,7 +10,8 @@
             revision="caf-ten" />
 
     <remote name="cygnusnext"
-            fetch="https://github.com/cygnus-next" />
+            fetch="https://github.com/cygnus-rom/"
+	    revision="caf-ten" />
 
     <remote name="gitlab"
             fetch="https://gitlab.com/"
@@ -59,7 +60,7 @@
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus" />
         <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="cygnus"/>
 	<project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus"/>
-	<project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cygnus"/>
+	<project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cygnusnext"/>
 
     <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
@@ -71,7 +72,7 @@
     <!-- Device -->
         <project path="device/qcom/common" name="device_qcom_common" remote="cygnus"/>
         <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
-        <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
+        <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnusnext"/>
         <project path="device/qcom/sepolicy-legacy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="lineage-17.1-legacy-um"/>
        
     <!-- External -->
