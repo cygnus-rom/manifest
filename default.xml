@@ -10,7 +10,7 @@
            fetch="git://codeaurora.org/quic/la"
            review="codeaurora.org" />
 
-  <default revision="refs/tags/LA.UM.8.2.1.r1-04200-sdm660.0"
+  <default revision="refs/tags/LA.UM.8.13.r1-08800-SAIPAN.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
