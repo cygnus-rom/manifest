@@ -3,6 +3,7 @@
 
   <!-- Repos tracked from our org -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/bionic"/>
