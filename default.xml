@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CAF -->
+  <remote name="caf_system"
+          fetch="git://codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.QSSI.11.0.r1-05600-qssi.0"/>
+
+  <remote name="caf_vendor"
+          fetch="git://codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.9.12.r1-08000-SMxx50.0"/>
+
+  <default remote="caf_system"/>
+
+  <include name="system.xml"/>
+  <include name="vendor.xml"/>
+
+  <!-- Cygnus -->
+  <remote  name="cygnus"
+           fetch="https://github.com/cygnus-rom"
+           revision="caf-11"/>
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="ruby" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com"/>
+  
+  <remote  name="github"
+           fetch="https://github.com/" />
+  
+  <include name="cygnus.xml"/>
+  <include name="obsolete.xml"/>
+
+</manifest>

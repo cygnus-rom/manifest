@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="Cygnus-devices"
+            fetch="https://github.com/Cygnus-devices"
+            revision="caf-ten" />
+
+    <!-- Vendor -->
+        <project path="vendor/cygnus" name="vendor_cygnus"  remote="cygnus"/>
+
+</manifest>
