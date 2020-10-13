@@ -17,6 +17,15 @@
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/qcom/common" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="device/generic/goldfish" />
+  <remove-project name="device/generic/goldfish-opengl" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/sample" />
+  
+  <!-- Build -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/build/blueprint" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/qcom/audio" />
@@ -34,5 +43,10 @@
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
   <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
-
+  
+  <!-- Temp -->
+  <remove-project name="vendor/qcom/opensource/commonsys-intf/wfd" />
+  <remove-project name="vendor/qcom/opensource/commonsys/fm" />
+  <remove-project name="vendor/qcom/opensource/fst-manager" />
+  <remove-project name="vendor/qcom/opensource/location" />
 </manifest>
