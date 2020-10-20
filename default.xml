@@ -31,8 +31,8 @@
   
   <remote  name="github"
            fetch="https://github.com/" />
-  
+
+  <include name="obsolete.xml"/>  
   <include name="cygnus.xml"/>
-  <include name="obsolete.xml"/>
 
 </manifest>
