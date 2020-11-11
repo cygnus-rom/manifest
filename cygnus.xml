@@ -58,6 +58,8 @@
      <!-- Manifest -->
    	<project path="manifest" name="manifest" remote="cygnus"/>
 
+     <!-- Hardware -->
+        <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="cygnus"/>
 
      <!-- Misc -->
    	<project path="platform_testing" name="platform_testing" remote="cygnus"/>
