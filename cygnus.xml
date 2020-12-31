@@ -51,6 +51,7 @@
         <project path="device/qcom/common" name="device_qcom_common" remote="cygnus-old" />
         <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus-old"/>
         <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus-old"/>
+        <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
      
      <!-- System -->
         <project path="system/core" name="system_core" remote="cygnus"/>
