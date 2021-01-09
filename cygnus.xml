@@ -70,7 +70,7 @@
         <project path="external/tinycompress" name="external_tinycompress" remote="cygnus"/>
         <project path="prebuilts/tools-cygnus" name="prebuilts_tools-cygnus" remote="cygnus" revision="caf-ten"/>
         <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus"/>    
-     <!-- SDClang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master"/>
         <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
 
 </manifest>
