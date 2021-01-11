@@ -72,5 +72,5 @@
         <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus"/>    
         <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master"/>
         <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
-
+        <project path="build/blueprint" name="build_blueprint" remote="cygnus"/>        
 </manifest>

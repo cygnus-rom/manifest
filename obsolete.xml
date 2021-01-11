@@ -31,7 +31,7 @@
   <!-- Build -->
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
-
+  <remove-project name="platform/build/blueprint" />
   <!-- External -->
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/json-c" />
