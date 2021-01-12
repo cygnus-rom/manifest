@@ -44,7 +44,8 @@
         <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
 
      <!-- Packages -->
-        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus"/>    
+        <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />    
         <project path="packages/providers/TelephonyProviders" name="packages_providers_TelephonyProviders" remote="cygnus"/>
         <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
      <!-- Device -->
