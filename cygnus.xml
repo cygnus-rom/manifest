@@ -34,6 +34,7 @@
         <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="cygnus"/>   
         <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="cygnus"/>
         <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="cygnus" />     
+        <project path="vendor/google/gms" name="cygnus-rom/vendor_google_gms" remote="gitlab" revision="r" />
      
      <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
