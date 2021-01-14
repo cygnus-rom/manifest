@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- LineageOS repos -->
+    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+
+</manifest>
