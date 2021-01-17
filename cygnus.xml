@@ -51,7 +51,7 @@
         <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
      <!-- Device -->
         <project path="device/qcom/common" name="device_qcom_common" remote="cygnus-old" />
-        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus-old"/>
+        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
         <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
         <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
      
