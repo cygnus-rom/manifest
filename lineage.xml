@@ -2,6 +2,6 @@
 <manifest>
 
     <!-- LineageOS repos -->
-    <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
-
+    <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="cygnus" />
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 </manifest>
