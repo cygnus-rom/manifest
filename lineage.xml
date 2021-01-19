@@ -5,5 +5,6 @@
     <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="cygnus" />
     <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
     <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="lineage" revision="lineage-18.1-legacy-um" />
 
 </manifest>
