@@ -35,12 +35,14 @@
         <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="cygnus"/>
         <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="cygnus" />     
         <project path="vendor/google/gms" name="cygnus-rom/vendor_google_gms" remote="gitlab" revision="r" />
-        <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="cygnus" />     
+        <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="cygnus" />  
+   
      <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
         <project path="frameworks/native" name="frameworks_native" remote="cygnus"/>
         <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cygnus"/>
         <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="cygnus"/>
+
      <!-- Recovery -->
         <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
 
@@ -49,6 +51,7 @@
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />    
         <project path="packages/providers/TelephonyProviders" name="packages_providers_TelephonyProviders" remote="cygnus"/>
         <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
+
      <!-- Device -->
         <project path="device/qcom/common" name="device_qcom_common" remote="cygnus-old" />
         <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
@@ -75,4 +78,5 @@
         <project path="external/motorola/faceunlock" name="cygnus-rom/external_motorola_faceunlock" remote="gitlab" revision="r" />
         <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master"/>
         <project path="build/blueprint" name="build_blueprint" remote="cygnus"/>        
+        <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="cygnus" />
 </manifest>
