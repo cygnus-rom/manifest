@@ -79,4 +79,6 @@
         <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master"/>
         <project path="build/blueprint" name="build_blueprint" remote="cygnus"/>        
         <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="cygnus" />
+        <project path="hardware/google/pixel" name="hardware_google_pixel" remote="cygnus" />
+
 </manifest>
