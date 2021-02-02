@@ -28,6 +28,7 @@
         <project path="vendor/cygnus" name="vendor_cygnus"  remote="cygnus"/>
         <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus" />
         <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" revision="caf-ten"/>
+        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_telephony" remote="cygnus" />
         <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="cygnus"/>
         <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" revision="caf-ten"/>
         <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus"/>
