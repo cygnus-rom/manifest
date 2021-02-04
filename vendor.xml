@@ -48,10 +48,6 @@
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/gps-product-opensource.mk" src="gps_vendor_product.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/mmc-utils" path="vendor/qcom/opensource/mmc-utils" remote="caf_vendor"/>
-  <project name="platform/vendor/qcom-opensource/power" path="vendor/qcom/opensource/power" remote="caf_vendor">
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/power-vendor-product.mk" src="power-vendor-product.mk"/>
-    <linkfile dest="vendor/qcom/defs/board-defs/vendor/power-vendor-board.mk" src="power-vendor-board.mk"/>
-  </project>
   <project name="platform/vendor/qcom-opensource/recovery-ext" path="vendor/qcom/opensource/recovery-ext" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/shortcut-fe" path="shortcut-fe" remote="caf_vendor"/>
   <project name="platform/vendor/qcom-opensource/thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="caf_vendor"/>
