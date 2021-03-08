@@ -36,7 +36,6 @@
         <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="cygnus"/>
         <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="cygnus" />     
         <project path="vendor/google/gms" name="cygnus-rom/vendor_google_gms" remote="gitlab" revision="r" />
-        <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="cygnus" />  
         <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="cygnus" />
    
      <!-- Frameworks -->
