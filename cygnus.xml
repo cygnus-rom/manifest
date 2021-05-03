@@ -53,6 +53,7 @@
         <project path="packages/providers/TelephonyProviders" name="packages_providers_TelephonyProviders" remote="cygnus"/>
         <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
         <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cygnus" />
+	<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
 
      <!-- Device -->
         <project path="device/qcom/common" name="device_qcom_common" remote="cygnus-old" />

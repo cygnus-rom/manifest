@@ -536,7 +536,6 @@
   <project name="platform/packages/apps/Tag" path="packages/apps/Tag"/>
   <project name="platform/packages/apps/Terminal" path="packages/apps/Terminal"/>
   <project name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity"/>
-  <project name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker"/>
   <project name="platform/packages/apps/TimeZoneData" path="packages/apps/TimeZoneData"/>
   <project name="platform/packages/apps/TimeZoneUpdater" path="packages/apps/TimeZoneUpdater"/>
   <project name="platform/packages/apps/Traceur" path="packages/apps/Traceur"/>
