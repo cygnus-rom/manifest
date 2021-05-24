@@ -56,7 +56,7 @@
 	<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
 
      <!-- Device -->
-        <project path="device/qcom/common" name="device_qcom_common" remote="cygnus-old" />
+        <project path="device/qcom/common" name="device_qcom_common" remote="cygnus" />
         <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
         <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
         <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
