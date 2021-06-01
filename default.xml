@@ -26,10 +26,6 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-18.1"/>
 
-  <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario"
-           revision="ruby" />
-
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
   

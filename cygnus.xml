@@ -5,10 +5,6 @@
             fetch="https://github.com/Cygnus-devices"
             revision="caf-ten" />
 
-    <remote name="cygnus-old"
-            fetch="https://github.com/cygnus-rom"
-            revision="caf-ten" />
-
      <!-- Build -->
         <project path="build/make" name="build" remote="cygnus" >
     	    <copyfile src="core/root.mk" dest="Makefile" />
@@ -41,8 +37,6 @@
      <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
         <project path="frameworks/native" name="frameworks_native" remote="cygnus"/>
-        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cygnus"/>
-        <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="cygnus"/>
 
      <!-- Recovery -->
         <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
@@ -50,8 +44,6 @@
      <!-- Packages -->
         <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />    
-        <project path="packages/providers/TelephonyProviders" name="packages_providers_TelephonyProviders" remote="cygnus"/>
-        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="cygnus"/>
         <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="cygnus" />
 	<project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
 
