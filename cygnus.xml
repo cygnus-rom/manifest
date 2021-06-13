@@ -34,9 +34,14 @@
         <project path="vendor/google/gms" name="cygnus-rom/vendor_google_gms" remote="gitlab" revision="r" />
         <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="cygnus" />
    
+     <!-- FaceUnlock -->
+        <project path="external/faceunlock" name="cygnus-rom/external_faceunlock" remote="gitlab" revision="caf-11"/>
+        <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="cygnus"/>
+
      <!-- Frameworks -->
         <project path="frameworks/base" name="frameworks_base" remote="cygnus"/>
         <project path="frameworks/native" name="frameworks_native" remote="cygnus"/>
+        <project path="frameworks/av" name="frameworks_av" remote="cygnus"/>
 
      <!-- Recovery -->
         <project path="bootable/recovery" name="bootable_recovery" remote="cygnus"/>
@@ -71,7 +76,6 @@
         <project path="external/tinycompress" name="external_tinycompress" remote="cygnus"/>
         <project path="prebuilts/tools-cygnus" name="prebuilts_tools-cygnus" remote="cygnus" revision="caf-ten"/>
         <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus"/>    
-        <project path="external/motorola/faceunlock" name="cygnus-rom/external_motorola_faceunlock" remote="gitlab" revision="r" />
         <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master"/>
         <project path="build/blueprint" name="build_blueprint" remote="cygnus"/>        
         <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="cygnus" />
