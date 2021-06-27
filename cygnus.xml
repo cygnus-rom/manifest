@@ -73,6 +73,7 @@
      <!-- Misc -->
    	<project path="platform_testing" name="platform_testing" remote="cygnus"/>
 	<project path="art" name="art" remote="cygnus"/>
+        <project path="bionic" name="bionic" remote="cygnus"/>
         <project path="external/fastrpc" name="external_fastrpc" remote="cygnus"/>
         <project path="external/tinycompress" name="external_tinycompress" remote="cygnus"/>
         <project path="prebuilts/tools-cygnus" name="prebuilts_tools-cygnus" remote="cygnus" revision="caf-ten"/>

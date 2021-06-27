@@ -39,7 +39,6 @@
   <project name="kernel/configs"/>
   <project name="kernel/tests"/>
   <project name="platform/art" path="art"/>
-  <project name="platform/bionic" path="bionic"/>
   <project name="platform/bootable/recovery" path="bootable/recovery"/>
   <project name="platform/build" path="build/make">
     <copyfile dest="Makefile" src="core/root.mk"/>
