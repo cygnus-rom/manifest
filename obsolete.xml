@@ -87,6 +87,7 @@
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
 
   <!-- Misc -->
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
 
