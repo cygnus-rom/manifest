@@ -5,12 +5,12 @@
   <remote name="caf_system"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.QSSI.11.0.r1-12200-qssi.0"/>
+          revision="refs/tags/LA.QSSI.11.0.r1-12900-qssi.0"/>
 
   <remote name="caf_vendor"
           fetch="https://source.codeaurora.org/quic/la"
           review="codeaurora.org"
-          revision="refs/tags/LA.UM.9.14.r1-16700-LAHAINA.0"/>
+          revision="refs/tags/LA.UM.9.14.r1-17900-LAHAINA.0"/>
 
   <default remote="caf_system"/>
 
