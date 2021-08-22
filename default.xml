@@ -20,7 +20,7 @@
   <!-- Cygnus -->
   <remote  name="cygnus"
            fetch="https://github.com/cygnus-rom"
-           revision="caf-11"/>
+           revision="staging/caf-11"/>
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
