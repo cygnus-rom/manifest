@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- CAF -->
+  <remote name="caf_system"
+          fetch="https://source.codeaurora.org/quic/la"
+          review="codeaurora.org"/>
+
+  <remote name="caf_vendor"
+          fetch="https://source.codeaurora.org/quic/la"
+          review="codeaurora.org"
+          revision="refs/tags/LA.UM.9.14.r1-18300.02-LAHAINA.QSSI12.0"/>
+
+  <default revision="refs/tags/LA.QSSI.12.0.r1-04900-qssi.0"
+           remote="caf_system"/>
+
+  <include name="system.xml"/>
+  <include name="vendor.xml"/>
+
+  <!-- CygnusOS -->
+  <remote  name="cygnus"
+           fetch="https://github.com/cygnus-beta"
+           revision="caf-12" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+
+  <include name="cygnus.xml"/>
+  <include name="obsolete.xml"/>
+
+</manifest>
