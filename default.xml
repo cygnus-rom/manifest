@@ -31,4 +31,11 @@
   <include name="cygnus.xml"/>
   <include name="obsolete.xml"/>
 
+  <remote  name="Cygnus-devices"
+           fetch="https://github.com/Cygnus-devices"
+           revision="caf-11" />
+
+  <remote name="gitlab"
+           fetch="https://gitlab.com"/>
+
 </manifest>
