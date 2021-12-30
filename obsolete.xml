@@ -57,5 +57,8 @@
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
   <remove-project name="platform/vendor/codeaurora/packages/apps/SoundRecorder" />
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
 
 </manifest>

@@ -38,4 +38,3 @@ You can reach us via [Telegram](https://t.me/CygnusOS)
 And all others we might've missed out
 
 
-# DO NOT SYNC OR BUILD TILL THIS LINE IS REMOVED

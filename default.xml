@@ -19,7 +19,7 @@
 
   <!-- CygnusOS -->
   <remote  name="cygnus"
-           fetch="https://github.com/cygnus-beta"
+           fetch="https://github.com/cygnus-rom"
            revision="caf-12" />
 
   <remote  name="github"
