@@ -72,7 +72,7 @@
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
   <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="cygnus" />
   <remove-project name="platform/vendor/qcom-opensource/interfaces" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus" revision="caf-11" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
