@@ -82,6 +82,8 @@
   <project path="device/qcom/common" name="device_qcom_common" remote="cygnus" />
   <remove-project name="device/qcom/sepolicy" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
+  <remove-project name="device/qcom/sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="cygnus"/>
   <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
   <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
 
