@@ -39,6 +39,7 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
+  <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
 
