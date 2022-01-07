@@ -75,6 +75,7 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
+  <project path="vendor/gms" name="cygnus-rom/vendor_gms" remote="gitlab" revision="caf-12" />
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
 
   <!-- Device -->
