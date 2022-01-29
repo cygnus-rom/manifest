@@ -46,6 +46,8 @@
   <!-- System -->
   <remove-project name="platform/system/core" />
   <project path="system/core" name="system_core" remote="cygnus" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cygnus" />
 
   <!-- Prebuilts (Cygnus) -->
   <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master" clone-depth="1" />
