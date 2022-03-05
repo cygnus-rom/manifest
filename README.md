@@ -26,6 +26,19 @@ This is a large download that will take approximately 100 GB of disk space, so p
   lunch cygnus_device_codename-userdebug
   make cygnus -j$(nproc --all)
 ```
+## ADDITIONAL INFORMATION
+
+Since Cygnus doesn't have pathmaps, you need to have your own HALs. You can take HALs from any ROM provided they build fine and don't have any pathmaps in them.
+The paths for cloning HALs are as follows:
+
+Audio -> ```vendor/qcom/opensource/audio-hal/primary-hal```
+
+Media -> ```hardware/qcom/media```
+
+Display -> ```hardware/qcom/display```
+
+Of course, many HALs can be found in our devices org, on their respective caf-12-x branches and you can use them if your device has the same chipset, Happy Compiling!
+
 ## Report build issues
 You can reach us via [Telegram](https://t.me/CygnusOS)
 
