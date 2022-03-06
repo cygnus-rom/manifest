@@ -79,9 +79,13 @@
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
   <project path="vendor/gms" name="cygnus-rom/vendor_gms" remote="gitlab" revision="caf-12" />
-  <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="cygnus" />
+  
+  <!-- External -->
+  <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
+  <project path="external/themelib" name="external_themelib" remote="cygnus" />
+  <project path="external/colorkt" name="external_colorkt" remote="cygnus" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
