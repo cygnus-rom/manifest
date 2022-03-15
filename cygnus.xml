@@ -17,6 +17,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="bionic" remote="cygnus" />
 
   <!-- Bootable -->
   <remove-project name="platform/bootable/recovery" />
