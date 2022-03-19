@@ -34,6 +34,9 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="cygnus" />
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="cygnus" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus" />
+
 
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="cygnus" />
@@ -83,7 +86,9 @@
   <project path="vendor/gms" name="cygnus-rom/vendor_gms" remote="gitlab" revision="caf-12" />
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="cygnus" />
-  
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
+
+
   <!-- External -->
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
   <project path="external/themelib" name="external_themelib" remote="cygnus" />
