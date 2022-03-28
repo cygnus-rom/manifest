@@ -104,4 +104,8 @@
   <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
   <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
 
+  <!-- Eva GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-elf" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" clone-depth="1" />
+
 </manifest>
