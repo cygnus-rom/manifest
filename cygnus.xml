@@ -88,7 +88,7 @@
   <remove-project name="platform/vendor/codeaurora/telephony" />
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="cygnus" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
-
+  <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="cygnus"  />  
 
   <!-- External -->
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
