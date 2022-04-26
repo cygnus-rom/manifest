@@ -47,6 +47,7 @@
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="cygnus" />
 
   <!-- System -->
   <remove-project name="platform/system/core" />
@@ -91,8 +92,7 @@
 
   <!-- External -->
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
-  <project path="external/themelib" name="external_themelib" remote="cygnus" />
-  <project path="external/colorkt" name="external_colorkt" remote="cygnus" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="cygnus" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
