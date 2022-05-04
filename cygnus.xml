@@ -93,6 +93,8 @@
   <!-- External -->
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
   <project path="external/faceunlock" name="external_faceunlock" remote="cygnus" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cygnus" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
