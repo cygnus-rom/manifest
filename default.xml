@@ -32,7 +32,7 @@
   <!-- CygnusOS -->
   <remote  name="cygnus"
            fetch="https://github.com/cygnus-rom"
-           revision="caf-13" />
+           revision="caf-12" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -45,7 +45,7 @@
 
   <remote  name="Cygnus-devices"
            fetch="https://github.com/Cygnus-devices"
-           revision="caf-13" />
+           revision="caf-12" />
 
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
