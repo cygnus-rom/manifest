@@ -2,23 +2,29 @@
 <manifest>
 
   <!-- CAF -->
-  <remote name="caf_system"
+  <remote name="clo_system"
           fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
           review="codelinaro.org"/>
 
-  <remote name="caf_vendor"
+  <remote name="clo_vendor"
           fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
           review="codelinaro.org"
-          revision="refs/tags/LA.UM.9.16.r2-03900-MANNAR.0"/>
+          revision="refs/tags/LA.UM.9.14.2.r1-01700-QCM6490.QSSI12.0"/>
 
-  <default revision="refs/tags/LA.QSSI.12.0.r1-06800-qssi.0"
-           remote="caf_system"/>
+  <default revision="refs/tags/LA.QSSI.13.0.r1-05400-qssi.0"
+           remote="clo_system"/>
 
   <!-- AOSP -->
   <remote name="aosp"
           fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
           review="https://android-review.googlesource.com/"
-          revision="refs/tags/android-12.1.0_r4"/>
+          revision="refs/tags/android-13.0.0_r3"/>
 
   <include name="system.xml"/>
   <include name="vendor.xml"/>
@@ -26,7 +32,7 @@
   <!-- CygnusOS -->
   <remote  name="cygnus"
            fetch="https://github.com/cygnus-rom"
-           revision="caf-12" />
+           revision="caf-13" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -39,7 +45,7 @@
 
   <remote  name="Cygnus-devices"
            fetch="https://github.com/Cygnus-devices"
-           revision="caf-11" />
+           revision="caf-13" />
 
   <remote name="gitlab"
            fetch="https://gitlab.com"/>
