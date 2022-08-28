@@ -1,59 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Build and Core -->
-  <remove-project name="platform/build_repo" />
-  <project path="build/make" name="build" remote="cygnus" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="build_soong" remote="cygnus" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <remove-project name="platform/bionic" />
-  <project path="bionic" name="bionic" remote="cygnus" />
-
-  <!-- Bootable -->
-  <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="cygnus" />
-
-  <!-- Frameworks -->
-  <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="frameworks_native" remote="cygnus" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
-
-  <!-- Hardware -->
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="cygnus" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="cygnus" />
-  <remove-project name="platform/hardware/libhardware" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="cygnus" />
-
-
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="cygnus" />
-
-  <!-- Packages -->
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
-  <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="cygnus" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="cygnus" />
-
-  <!-- System -->
-  <remove-project name="platform/system/core" />
-  <project path="system/core" name="system_core" remote="cygnus" />
-  <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="cygnus" />
 
   <!-- Prebuilts (Cygnus) -->
   <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master" clone-depth="1" />
@@ -62,39 +11,10 @@
   <!-- Vendor (Cygnus) -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
 
-  <!-- Vendor (QCOM) -->
-  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="cygnus" >
-    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
-    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
-  </project>
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/power" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/recovery-ext" />
-  <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="cygnus" />
-  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="cygnus" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
-  <project path="vendor/gms" name="cygnus-rom/vendor_gms" remote="gitlab" revision="caf-12" />
-  <remove-project name="platform/vendor/codeaurora/telephony" />
-  <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="cygnus" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
   <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="cygnus"  />  
-
-  <!-- External -->
-  <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="cygnus" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cygnus" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
@@ -103,7 +23,6 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="cygnus"/>
   <remove-project name="device/qcom/sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="cygnus"/>
-  <project path="device/cygnus/sepolicy" name="device_cygnus_sepolicy" remote="cygnus"/>
   <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
 
   <!-- Eva GCC -->
