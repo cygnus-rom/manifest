@@ -4,6 +4,17 @@
   <!-- Manifest -->
   <project path="manifest" name="manifest" remote="cygnus" />
 
+  <!-- Build and Core -->  
+  <remove-project name="platform/build_repo" />
+  <project path="build/make" name="build" remote="cygnus" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
   <!-- Prebuilts (Cygnus) -->
   <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master" clone-depth="1" />
   <project path="tools/extract-utils" name="tools_extract-utils" remote="cygnus" />
@@ -15,6 +26,16 @@
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
   <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="cygnus"  />  
+
+  <!-- Vendor (QCOM) -->
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cygnus"  />  
+  <remove-project name="platform/vendor/qcom-opensource/system/bt" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="cygnus"  />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="cygnus"  />  
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_power" remote="cygnus"  />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
