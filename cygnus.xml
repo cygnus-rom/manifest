@@ -14,10 +14,17 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="build_soong" remote="cygnus" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="bionic" remote="cygnus" />
 
   <!-- Prebuilts (Cygnus) -->
-  <project path="prebuilts/clang/host/linux-x86/clang-12" name="proton-clang" remote="cygnus" revision="master" clone-depth="1" />
   <project path="tools/extract-utils" name="tools_extract-utils" remote="cygnus" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="cygnus-rom/prebuilts_clang_host_linux-x86_clang-r416183b1" remote="gitlab" revision="caf-13" />
 
   <!-- Vendor (Cygnus) -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
@@ -25,7 +32,6 @@
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
-  <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="cygnus"  />  
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/power" />
@@ -35,7 +41,10 @@
   <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="cygnus"  />  
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth" />
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_power" remote="cygnus"  />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="cygnus"  />
+  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="disabled" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="cygnus" />
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
@@ -46,14 +55,23 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="cygnus"/>
   <project path="device/cygnus/common" name="device_cygnus_common" remote="cygnus"/>
 
-  <!-- Eva GCC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="github" revision="gcc-master" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-elf" name="mvaisakh/gcc-arm" remote="github" revision="gcc-master" clone-depth="1" />
+  <!-- GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="cygnus" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="cygnus" />
 
   <!-- External (AOSP) -->
   <remove-project name="platform/external/chromium-webview" />
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="hardware_interfaces" remote="cygnus" />
+
+  <!-- Miscellaneous -->
+  <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
+  <project path="vendor/qcom/opensource/commonsys/wifi" name="vendor_qcom_opensource_commonsys_wifi" remote="cygnus" />
 
 </manifest>

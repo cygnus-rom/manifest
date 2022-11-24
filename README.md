@@ -11,7 +11,7 @@ CygnusOS CAF is a minimal custom Android ROM which provides users best UI and pe
 First, make sure you have an [Android build environment](https://source.android.com/setup/build/initializing) and the [repo tool](https://source.android.com/setup/build/downloading) set up. After that, run the following commands:
 
 ```bash
-repo init -u https://github.com/cygnus-rom/manifest -b caf-12
+repo init -u https://github.com/cygnus-rom/manifest -b caf-13
 ```
 ```bash
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
