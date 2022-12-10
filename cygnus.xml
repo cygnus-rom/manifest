@@ -5,6 +5,7 @@
   <project path="manifest" name="manifest" remote="cygnus" />
 
   <!-- Build and Core -->  
+  <remove-project name="platform/packages/apps/StorageManager" />
   <remove-project name="platform/build_repo" />
   <project path="build/make" name="build" remote="cygnus" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -28,7 +29,6 @@
 
   <!-- Vendor (Cygnus) -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
-  <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
@@ -70,8 +70,6 @@
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cygnus" />
 
-  <!-- Miscellaneous -->
-  <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi" />
-  <project path="vendor/qcom/opensource/commonsys/wifi" name="vendor_qcom_opensource_commonsys_wifi" remote="cygnus" />
-
+  <remove-project name="device/qcom/vendor-common" />
+  <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="github" revision="topaz" />
 </manifest>
