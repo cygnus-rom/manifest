@@ -5,7 +5,6 @@
   <project path="manifest" name="manifest" remote="cygnus" />
 
   <!-- Build and Core -->  
-  <remove-project name="platform/packages/apps/StorageManager" />
   <remove-project name="platform/build_repo" />
   <project path="build/make" name="build" remote="cygnus" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -34,6 +33,8 @@
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
 
   <!-- Vendor (QCOM) -->
+  <remove-project name="platform/vendor/qcom-opensource/lights" />
+  <project path="vendor/qcom/opensource/lights" name="vendor_qcom_opensource_lights" remote="cygnus"  />
   <remove-project name="platform/vendor/qcom-opensource/power" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="cygnus"  />  
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
