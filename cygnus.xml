@@ -29,8 +29,9 @@
   <!-- Vendor (Cygnus) -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
   <project path="vendor/prebuilts" name="vendor_prebuilts" remote="cygnus" />
+  <project path="vendor/gms" name="cygnus-rom/vendor_gms" remote="gitlab" revision="caf-13" clone-depth="1" />
   <project path="vendor/cygnus-overlays" name="vendor_cygnus-overlays" remote="cygnus" />
-  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
+  <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="topaz"  />  
 
   <!-- Vendor (QCOM) -->
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
