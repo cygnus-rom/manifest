@@ -33,6 +33,8 @@
   <project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="sapphire"  />  
 
   <!-- Vendor (QCOM) -->
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="cygnus"  />
   <remove-project name="platform/vendor/qcom-opensource/lights" />
   <project path="vendor/qcom/opensource/lights" name="vendor_qcom_opensource_lights" remote="cygnus"  />
   <remove-project name="platform/vendor/qcom-opensource/power" />
