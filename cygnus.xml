@@ -21,6 +21,8 @@
   </project>
   <remove-project name="platform/bionic" />
   <project path="bionic" name="bionic" remote="cygnus" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
 
   <!-- Prebuilts (Cygnus) -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="cygnus" />
@@ -73,7 +75,7 @@
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cygnus" />
-
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="github" revision="topaz" />
+
 </manifest>
