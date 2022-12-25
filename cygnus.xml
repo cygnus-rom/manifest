@@ -79,5 +79,10 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cygnus" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="github" revision="topaz" />
+  
+    <!-- Packages -->
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
+  <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
 
 </manifest>
