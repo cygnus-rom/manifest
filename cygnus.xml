@@ -88,5 +88,7 @@
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="cygnus" />
+  <project path="external/faceunlock" name="cygnus-rom/external_faceunlock" remote="gitlab" revision="caf-13" />
 
 </manifest>
