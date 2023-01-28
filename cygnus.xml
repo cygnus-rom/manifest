@@ -69,12 +69,14 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="cygnus" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="cygnus" />
 
-  <!-- External (AOSP) -->
+  <!-- External -->
   <remove-project name="platform/external/chromium-webview" />
   <project clone-depth="1" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="platform/external/libavc" remote="aosp" />
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cygnus" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
