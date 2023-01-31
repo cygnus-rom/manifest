@@ -25,6 +25,8 @@
   <project path="frameworks/base" name="frameworks_base" remote="cygnus" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cygnus" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="cygnus" />
 
   <!-- Prebuilts (Cygnus) -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="cygnus" />
