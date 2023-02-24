@@ -79,14 +79,19 @@
   <project path="external/tinyxml" name="external_tinyxml" remote="cygnus" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cygnus" />
+  <project path="packages/modules/IntentResolver" name="platform/packages/modules/IntentResolver" remote="aosp" />
 
+  <!-- Platform Testing (AOSP) -->
+  <remove-project name="platform/platform_testing" />
+  <project path="platform_testing" name="platform/platform_testing" remote="aosp" />
+  
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="cygnus" />
   <remove-project name="device/qcom/vendor-common" />
   <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="github" revision="topaz" />
   
-    <!-- Packages -->
+  <!-- Packages -->
   <remove-project name="platform/packages/apps/Settings" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="cygnus" />
   <project path="packages/apps/Spaceship" name="packages_apps_Spaceship" remote="cygnus" />
