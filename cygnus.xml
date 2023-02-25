@@ -30,7 +30,6 @@
 
   <!-- Prebuilts (Cygnus) -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="cygnus" />
-  <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="cygnus-rom/prebuilts_clang_host_linux-x86_clang-r416183b1" remote="gitlab" revision="caf-13" />
 
   <!-- Vendor (Cygnus) -->
   <project path="vendor/cygnus" name="vendor_cygnus" remote="cygnus" />
